@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     align-items: center;
-    background: whitesmoke;
+    background: white;
     color: ${({ theme }) => theme.text};
     display: flex;
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
