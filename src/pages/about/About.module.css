@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+}
+
+.about > img {
+  flex: 0.5;
+  margin: auto;
+}
+
+.about > .right {
+  margin: auto;
+  width: 80%;
+  padding: 0 20px;
+  flex: 0.5;
+}
+
+.about > .right > h1 {
+  color: rgb(63, 61, 86);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about > .right > .info {
+  color: grey;
+  line-height: 1.3em;
+  width: 90%;
+  padding: 10px 0 0 5px;
+  margin-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+}
