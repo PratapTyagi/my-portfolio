@@ -1,0 +1,11 @@
+.competitive_sites {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.competitive_sites > a {
+  margin-right: 0.5em;
+}
