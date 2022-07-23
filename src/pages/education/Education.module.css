@@ -1,29 +1,45 @@
-.education {
-  display: flex;
-  width: 100vw;
-  height: 90vh;
+.education_top,
+.github {
+  height: 100vh;
 }
 
-.education > img {
+.education_top {
+  display: flex;
+}
+
+.education_top > img {
   margin: auto;
 }
 
-.education > .left {
+.education_top > .left {
   margin: auto;
   margin-left: 8em;
 }
 
-.education > .left > h1 {
+.education_top > .left > h1 {
   color: rgb(63, 61, 86);
   font-size: 4rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
 
-.education > .left > .platforms {
+.education_top > .left > .platforms {
   font-size: 1.3em;
   font-weight: 500;
   color: grey;
   padding-left: 2px;
   margin-bottom: 1em;
+}
+
+.github {
+  text-align: center;
+}
+
+.github > p {
+  color: rgb(63, 61, 86);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 25px;
 }
