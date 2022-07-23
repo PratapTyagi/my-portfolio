@@ -1,0 +1,31 @@
+.experience_top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience_top > img {
+  margin: auto;
+}
+
+.experience_top > .right {
+  margin: auto;
+  width: 80%;
+  padding: 0 20px;
+  flex: 0.5;
+}
+
+.experience_top > .right > h1 {
+  color: rgb(63, 61, 86);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.experience_top > .right > .info {
+  color: grey;
+  line-height: 1.3em;
+  width: 90%;
+  padding: 10px 0 0 5px;
+  margin-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+}
