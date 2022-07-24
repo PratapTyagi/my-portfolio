@@ -18,3 +18,25 @@ export const socialMediaLinks = [
     backgroundColor: "#D14836",
   },
 ];
+
+export const workExperience = [
+  {
+    serialNumber: 1,
+    companyName: "App Avengers Private Limited",
+    companyLink: "https://www.appavengers.co/",
+    companyPic: require("./assets/appAvengersLogo.png"),
+    certification:
+      "https://drive.google.com/file/d/1vibGif8gR-PWIMLOOsOuRrLY_7t-1uRc/view?usp=sharing",
+    designation: "Web Development",
+    duration: "August 20, 2021 - Feburary 20, 2022",
+  },
+  {
+    serialNumber: 2,
+    companyName: "Intelligaia",
+    companyLink: "https://intelligaia.com/",
+    companyPic: require("./assets/intelligaiaLogo.png"),
+    certification: null,
+    designation: "Software Development",
+    duration: "May 23, 2022 - Present",
+  },
+];

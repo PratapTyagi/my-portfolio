@@ -1,6 +1,7 @@
 .experience_top {
   display: flex;
   justify-content: space-around;
+  height: 100vh;
 }
 
 .experience_top > img {
@@ -28,4 +29,22 @@
   padding: 10px 0 0 5px;
   margin-bottom: 2em;
   font-family: "Montserrat", sans-serif;
+}
+
+.experience_bottom {
+  height: 100vh;
+}
+
+.experience_bottom > p {
+  color: rgb(63, 61, 86);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 25px;
+}
+
+.experience_bottom > .my_work {
+  display: flex;
+  justify-content: space-around;
 }
