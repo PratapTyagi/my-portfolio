@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { Home, About, Education, Experience } from "./index";
+import { Home, About, Education, Experience, Projects } from "./index";
 import { Navbar } from "../components";
 
 // HOC which returns new component along with navbar
@@ -22,6 +22,7 @@ const Main = () => {
         <Route path="/about" exact element={withNavbar(<About />)} />
         <Route path="/education" exact element={withNavbar(<Education />)} />
         <Route path="/experience" exact element={withNavbar(<Experience />)} />
+        <Route path="/projects" exact element={withNavbar(<Projects />)} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,28 @@
+.projects_top {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.projects_top > .left {
+  margin: auto;
+  width: 80%;
+  padding: 0 20px;
+  flex: 0.5;
+}
+
+.projects_top > .left > h1 {
+  color: rgb(63, 61, 86);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects_top > .left > .info {
+  color: grey;
+  line-height: 1.3em;
+  width: 90%;
+  padding: 10px 0 0 5px;
+  margin-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+}
