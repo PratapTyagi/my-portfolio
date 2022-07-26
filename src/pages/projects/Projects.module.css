@@ -26,3 +26,21 @@
   margin-bottom: 2em;
   font-family: "Montserrat", sans-serif;
 }
+
+.projects_bottom {
+  height: 100vh;
+}
+
+.projects_bottom > p {
+  color: rgb(63, 61, 86);
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 25px;
+}
+
+.projects_bottom > .my_projects {
+  display: flex;
+  justify-content: space-around;
+}

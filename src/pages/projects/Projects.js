@@ -1,6 +1,9 @@
 import ProgrammingBoy from "../../assets/programming_boy.svg";
 import styles from "./Projects.module.css";
 
+import { ProjectCard } from "../../components";
+import { projects } from "../../portfolioInformaton";
+
 const Projects = () => {
   return (
     <div className={styles.projects}>
@@ -18,6 +21,14 @@ const Projects = () => {
           height={500}
           width={650}
         />
+      </section>
+      <section className={styles.projects_bottom}>
+        <p>My Work</p>
+        <div className={styles.my_projects}>
+          {projects.map((project) => (
+            <ProjectCard project={project} key={project.project_id} />
+          ))}
+        </div>
       </section>
     </div>
   );
