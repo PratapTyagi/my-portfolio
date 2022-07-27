@@ -29,6 +29,12 @@ const Projects = () => {
             <ProjectCard project={project} key={project.project_id} />
           ))}
         </div>
+        <a
+          href="https://github.com/PratapTyagi?tab=repositories"
+          className={styles.more_projects}
+        >
+          More Projects
+        </a>
       </section>
     </div>
   );

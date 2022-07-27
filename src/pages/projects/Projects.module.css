@@ -29,6 +29,7 @@
 
 .projects_bottom {
   height: 100vh;
+  text-align: center;
 }
 
 .projects_bottom > p {
@@ -43,4 +44,22 @@
 .projects_bottom > .my_projects {
   display: flex;
   justify-content: space-around;
+}
+
+.projects_bottom > .more_projects {
+  display: inline-block;
+  margin-top: 40px !important;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(63, 61, 86);
+  font-weight: 500;
+  border-radius: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.projects_bottom > .more_projects:hover {
+  background-color: #6c63ff;
+  transition: background-color 0.5s ease-out;
 }
