@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.05e377f6.css",
+    "main.js": "/my-portfolio/static/js/main.7ab4e501.js",
+    "static/media/boston_pizza_pic.png": "/my-portfolio/static/media/boston_pizza_pic.a6aa84f43a920ee64019.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/we_care_pic.png": "/my-portfolio/static/media/we_care_pic.3932b0cc028cceaeb04b.png",
+    "static/media/fontawesome-webfont.eot": "/my-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/socio_connect_pic.png": "/my-portfolio/static/media/socio_connect_pic.a157830f2e5035f00116.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/splash.gif": "/my-portfolio/static/media/splash.4c972cc05d9d07462029.gif",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/programmer.svg": "/my-portfolio/static/media/programmer.e7fd0478451b8d72ff9b93b1ea475b66.svg",
+    "static/media/appAvengersLogo.png": "/my-portfolio/static/media/appAvengersLogo.d0ab4a856023a27ee16c.png",
+    "static/media/career_mirror.svg": "/my-portfolio/static/media/career_mirror.6a377e52740408f6dca3cdd02e07789d.svg",
+    "static/media/programming_boy.svg": "/my-portfolio/static/media/programming_boy.d9bfce78f6e9dd42754b8725e2fe4fd9.svg",
+    "static/media/about_me.svg": "/my-portfolio/static/media/about_me.62a6a2e36167da9c029a807da20af7e7.svg",
+    "static/media/intelligaiaLogo.png": "/my-portfolio/static/media/intelligaiaLogo.807251c24235a98630bf.png",
+    "static/media/graduation_cap.svg": "/my-portfolio/static/media/graduation_cap.f9ca8e3127752475f2ff8078f421905b.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.05e377f6.css.map": "/my-portfolio/static/css/main.05e377f6.css.map",
+    "main.7ab4e501.js.map": "/my-portfolio/static/js/main.7ab4e501.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e377f6.css",
+    "static/js/main.7ab4e501.js"
+  ]
+}
